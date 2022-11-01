@@ -3,6 +3,7 @@
 #define fast ios::sync_with_stdio(0), cin.tie(nullptr), cout.tie(nullptr)
 using namespace std;
 int dp[100001] = { 0, };
+//dp문제 그리디로 풀다가 나락감.
 int main() {
 	fast;
 	int N;
